@@ -4,47 +4,69 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>This is a test site for Eric Croom to display the implementation of a back end api.</p>
 </div>
 
 <div class="row">
     <div class="col">
         <div class="input-group mb-3">
             <button id="randomJoke" type="button" class="btn btn-info">Get a Random Joke</button>
-            <p id="randomJokeHolder"></p>
+
         </div>
+        <p id="randomJokeHolder"></p>
     </div>
+
 </div>
 
 
 <div class="row">
     <div class="col">
         <div class="input-group mb-3">
-            <input id="searchTerm" type="text" class="form-control" placeholder="Enter a search term for jokes" aria-label="Search Term"
-                aria-describedby="searchJoke">
+            <input id="searchTerm" type="text" class="form-control" placeholder="Enter a search term for jokes"
+                aria-label="Search Term" aria-describedby="searchJoke">
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="button" id="searchJoke">Search Jokes</button>
             </div>
 
         </div>
         <div id="searchJokeHolder">
+            <h3>Search Results</h3>
             <div class="row">
-                <label>Small Jokes</label>
-                <ul id="smallJokes">
-
-                </ul>
+                <div class="col">
+                    <label>Small Jokes</label>
+                </div>
             </div>
             <div class="row">
-                <label>Medium Jokes</label>
-                <ul id="mediumJokes">
+                <div class="col">
+                    <ul id="smallJokes">
 
-                </ul>
+                    </ul>
+                </div>
             </div>
             <div class="row">
-                <label>Large Jokes</label>
-                <ul id="largeJokes">
+                <div class="col">
+                    <label>Medium Jokes</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul id="mediumJokes">
 
-                </ul>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <label>Large Jokes</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul id="largeJokes">
+
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
