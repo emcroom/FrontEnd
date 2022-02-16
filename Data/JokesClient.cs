@@ -19,7 +19,9 @@ namespace FrontEnd.Data
         public JokesClient(HttpClient client)
         {
             _client = client;
+            //Change the port if using a .net framework version of the api.
             _client.BaseAddress = new Uri("https://localhost:5003/");
+           
            
 
         }
